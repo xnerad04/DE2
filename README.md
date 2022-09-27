@@ -1,4 +1,5 @@
 # DE2
 
-H2 Digital electronics
+Digital electronics
+
 *by Adam Neradilek*

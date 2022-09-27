@@ -1,3 +1,3 @@
 # DE2
 
-**by Adam Neradilek**
+*by Adam Neradilek*

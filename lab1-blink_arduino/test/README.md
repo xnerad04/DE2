@@ -36,14 +36,14 @@ int main(void)
         // Turn the LED on
         led_value = HIGH;  
         
-        // Line duration
+        // Comma duration
         _delay_ms(LONG_DELAY);        
         
         
         // Turn the LED off
         led_value = LOW;        
 
-        // Pause between symbols
+        // Pause between characters
         _delay_ms(LONG_DELAY); 
     }
 

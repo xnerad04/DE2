@@ -15,33 +15,31 @@ int main(void)
     {
         // Generate a lettre `A` Morse code
 
-        // WRITE YOUR CODE HERE
-        digitalWrite(LED_GREEN, led_value);
-        
+        // WRITE YOUR CODE HERE       
         
         // Turn the LED on
-        led_value = HIGH;
+        digitalWrite(LED_GREEN, led_value_h);
         
         // Dot duration
         _delay_ms(SHORT_DELAY);
         
         
         // Turn the LED off
-        led_value = LOW;
+        digitalWrite(LED_GREEN, led_value_l);
         
         // Pause duration
         _delay_ms(SHORT_DELAY);   
         
         
         // Turn the LED on
-        led_value = HIGH;  
+        digitalWrite(LED_GREEN, led_value_h); 
         
         // Comma duration
         _delay_ms(LONG_DELAY);        
         
         
         // Turn the LED off
-        led_value = LOW;        
+        digitalWrite(LED_GREEN, led_value_l);      
 
         // Pause between characters
         _delay_ms(LONG_DELAY); 
